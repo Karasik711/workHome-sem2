@@ -8,11 +8,6 @@
 from math import sqrt
 s = int(input("сумма чисел: "))
 p = int(input("Произведение чисел: "))
-i = sqrt((s/2)**2 - p )
-print( int( s/2 - i ), int( s/2 + i ) )
-    # print("Сумма:", suma)
-    # print("Произведение:", mult)
-# from math import sqrt
-# s, p = map( int, input('s, p = ').split() )
-# z = sqrt( (s/2)**2 - p )
-# print( int( s/2 - z ), int( s/2 + z ) )
+i = sqrt((s/2)**2-p)
+print(int(s/2-i), int(s/2+i))
+ 
